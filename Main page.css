@@ -1,0 +1,222 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	color: #fff;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.sidebar {
+	width: 200px;
+	background-color: #222;
+	border: 1px solid #8cff00; 
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.sidebar h2 {
+	margin-top: 0;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+.sidebar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar li {
+	margin-bottom: 10px;
+}
+
+.sidebar a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.sidebar li:hover {
+	color: #8cff00;
+}
+
+.main {
+	flex-grow: 1;
+	margin-left: 20px;
+}
+
+.main h1 {
+	margin-top: 0;
+	font-size: 3em;
+	text-align: center;
+	color: #8cff00;
+}
+
+.add-words
+{
+	border: 1px solid #8cff00;
+	border-radius: 10px;
+	padding: 70px;
+	margin-bottom: 5px;
+}
+#worrd
+{
+	display: flex;
+	border: 3px solid #15f015;
+	background-color:#87efdc;
+	padding: 30px;
+}
+#def
+{
+	display: flex;
+	border: 3px solid#15f015;
+	background-color: #87efdc;
+	padding: 30px;
+	width: 350px;
+}
+
+.word-info {
+	display: block;
+	border: 1px solid #8cff00;
+	border-radius: 10px;
+	width: 600px;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.word-info h2 {
+	display: block;
+	margin-top: 0;
+	font-size: 2em;
+	color: #0fbfc8;
+}
+
+.word-info #pronunciation {
+	display: block;
+	margin-top: 0;
+	font-size: 1.2em;
+	color: #8cff00;
+}
+
+.word-info #definition {
+	display: block;
+	font-size: 1.2em;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.favorite-btn {
+	background-color: #8cff00;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 1em;
+	cursor: pointer;
+}
+.favorite-btn:hover
+{
+	background-color: #be1010;
+}
+.favorites-sidebar {
+	width: 200px;
+	height: 400px;
+	background-color: #222;
+	border-radius: 10px;
+	padding: 20px;
+	border: 1px solid #8cff00; 
+	margin-left: 20px;
+  }
+  
+  .favorites-sidebar h2 {
+	margin-top: 0;
+	font-size: 1.5em;
+	color: #fff;
+  }
+
+  .added {
+	margin-top: 3px;
+	width: 200px;
+	height: 400px;
+	background-color: #222;
+	border-radius: 10px;
+	padding: 20px;
+	border: 1px solid #8cff00; 
+	margin-left: 20px;
+  }
+
+  #ad
+  {
+		display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #8cff00;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 1em;
+	cursor: pointer;
+  }
+  #ad:hover
+  {
+	background-color: #be1010;
+  }
+
+  #back
+  {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #8cff00;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 1em;
+	cursor: pointer;
+	margin-top: 20px;
+  }
+  #back:hover
+{
+	background-color: #be1010;
+}
+.words 
+{
+	color: #fff;
+	border: 1px solid #222;
+	background-color: #222;
+}
+
+.words:hover{
+	color: #8cff00;
+}
+.my-button
+{
+	color: #fff;
+	border: 1px solid #222;
+	background-color: #222;
+}
+.my-button:hover{
+	color: #8cff00;
+}
+.addbutton
+{
+	color: #fff;
+	border: 1px solid #222;
+	background-color: #222;
+}
+.addbutton:hover
+{
+	color: #8cff00;
+}
+
+
+
+  
